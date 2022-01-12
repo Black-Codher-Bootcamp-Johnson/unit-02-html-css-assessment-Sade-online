@@ -1,8 +1,30 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: auto;
+	max-width: 960px;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
+	background-color: #200000;
+	color: cornsilk;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+	border-radius: 25px;
+}
+ 
+.skills{
+	list-style: none;
 }
 
 .timeline {

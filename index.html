@@ -3,30 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>Sade Fasan</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="shortcut icon" type="image/jpg" href="pp.jpeg"/>
-
 </head>
 
 <body>
-    <h2>Welcome To My Developer Portfolio</h2>
-    <img class="profile_img" src="pp.jpeg" alt="Profile Picture Folasade Fasan">
-    <p>What's your name?</p>
-    <section>
-        <form action="">
-        
-            <label for="name">Name</label>
-            <input type="text" id="viewer_name" name="name" required>
+    <!--My 1 page portfolio will include: my Name (Y), Job title (Y), Brief bio (Y), Tech stack(Y), 
+        3 - 4 top quality projects (Y), CV, Github link (Y), LinkedIn (Y), Contact form (Y), -->
 
-            <input type="submit" value="Enter">
+    <title>Sade Fasan</title>
+
+    <h1>Sade Fasan</h1>
+    <h1>Web Developer</h1>
+
+    <video width="960" height="720" loop autoplay muted>
+        <source src="tree video 1.mp4" type="video/mp4" />
+    </video>
+    <p><em>"If you don't like where you are, move. You're not a tree"...</em> Jim Rohn</p>
+    <br>
+
+    <section class="about-me">
+
+    <p>Hey! It's good to see you. I'm Sade and I solve problems with code 🔥</p>
+    <br>
+    <p>I didn't like where i was in my previous career so I changed my life and moved.</p>
+    <br>
+    <p>Now, I continuously learn and use skills that have opened a new world of possibilities.</p>
+    <br>
+    <p>I love building things that work and look amazing within an awesome community.</p>
+    <br>
+
+    <img class ="profile-img" src="pp.jpeg"  alt="Sade fasan"> <!--image of myself included for the assessment-->
+
+
+<div class = "t-l">
+    <h2>MY JOURNEY</h2>
+    <ul class="timeline">
+        <li data-year="2021" data-text="Black Codher Bootcamp - Student"></li>
+        <li data-year="2019" data-text="Boots UK - Relief Pharmacist"></li>
+        <li data-year="2018" data-text="Wockhardt Uk Limited - Drug safety and information officer"></li>
+        <li data-year="2017" data-text="Boots UK - Pre-registration pharmacist"></li>
+        <li data-year="2016" data-text="University of Portsmouth - student mentor & green impact project assistant"></li>
+    </ul>
+</div>
+
+</section>
+    <br>
+    <br>
+    <h1>SKILLS</h1>
+    <br>
+
+    <div class="wrapper">
+    <div class="column">
+    <ul>
+        <h2>Languages</h2>
+
+        <li class = "skills">HTML, CSS</li>
+        <li class = "skills">Sass and Bootstrap</li>
+        <li class = "skills">JavaScript (ES6)</li>
+        <li class = "skills">SQL</li>
+    </ul>
+    </div>  
+    
+    <div class="column">
+    <ul>
+        <h2>Tools & Design</h2>
+
+        <li class = "skills">Visual Studio Code</li>
+        <li class = "skills">Git & GitHub</li>
+        <li class = "skills">Linux Command Line</li>
+        <li class = "skills">Chrome DevTools</li>
+        <li class = "skills">Netlify</li>
+    </ul>
+    </div>
+
+    <div class="column">
+        <ul>
+            <h2>Frameworks</h2>
+    
+            <li class = "skills">React</li>
+            <li class = "skills">Node</li>
+            <li class = "skills">Wordpress</li>
+        </ul>
+        </div>
+    </div>
+
+
+    <section>
+    <br>
+    <h2>PORTFOLIO</h2> 
+    <!--https://www.youtube.com/watch?v=w9NXYuYRScY&t=7s projects with databases--> 
+    <ul class="projects">
+
+    <li>Finance Tracker <!-- https://www.youtube.com/watch?v=6RhOzQciVwI&list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI&t=0s--> </li>
+    <li>Blog style project that pulls data from CMS / feed (gatsby cms) <!-- https://www.youtube.com/watch?v=8t0vNu2fCCM&t=16050s --></li>
+    <li>Material UI tracker</li>
+
+    </ul>
+
+    </section>
+
+    <br>
+
+    <div class="container">
+        <h2>CONTACT ME</h2>
+        <form action="blank">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name" required>
+          <br>
+          <br>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name">
+          <br>
+          <br>
+          <label for="message" required>Message</label>
+          <textarea id="message" name="message" placeholder="Drop me a quick message"></textarea>
+          <br>
+          <br>
+          <input type="submit" value="Submit">
 
         </form>
-    </section>
+      </div>
     
+    <footer>
+        <ul>
+            <br>
+            <li><a target=”_blank” href="">GET MY CV</a></li>
+            <li><a target=”_blank” href="https://dev.to/sadeonline">ARTICLES I WROTE</a></li>
+            <li><a target=”_blank” href="https://twitter.com/Thisis_sade">TWITTER</a></li>
+            <li><a target=”_blank” href="https://github.com/Sade-online">GITHUB</a></li>
+            <li><a target=”_blank” href="https://www.linkedin.com/in/sadefasan//">LINKEDIN</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
